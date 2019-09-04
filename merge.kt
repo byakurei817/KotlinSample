@@ -78,3 +78,21 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+/*
+BugCode
+*/
+
+fun main() {
+
+    var i = 0
+    while (i != -1) {
+        println(i)
+        i += 1
+    }
+
+    do {
+        println(i)
+        i -= 1
+    } while (i != 0)
+}
